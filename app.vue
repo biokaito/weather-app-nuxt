@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen relative overflow-hidden">
+  <div v-if="city" class="h-screen relative overflow-hidden">
     <img :src="background" />
     <div class="absolute w-full h-full top-0 overlay"></div>
     <div class="absolute w-full h-full top-0 p-48">
